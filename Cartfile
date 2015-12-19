@@ -1,0 +1,2 @@
+github "agentk/reduxSwift" "master"
+github "ReactiveX/RxSwift" ~> 2.0
