@@ -1,6 +1,11 @@
-# ReduxRx
+# ReduxRxSwift
 
 RxSwift bindings for Redux.
+
+```swift
+import ReduxRx
+let store = createStore(reducer)
+```
 
 ## Usage / Quick start
 
@@ -50,9 +55,9 @@ store.dispatch(IncrementAction())
 
 ### [Carthage](https://github.com/Carthage/Carthage)
 
-Add ReduxRx to `Cartfile`
+Add ReduxRxSwift to `Cartfile`
 ```
-github "SwiftRedux/ReduxRx"
+github "ReSwift/ReduxRxSwift"
 ```
 
 Run in terminal:
@@ -62,13 +67,13 @@ $ carthage update
 
 ### [CocoaPods](http://cocoapods.org)
 
-Add ReduxRx to your `Podfile`:
+Add ReduxRxSwift to your `Podfile`:
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 
-pod 'ReduxRx', '~> 0.0.19'
+pod 'ReduxRxSwift', '~> 0.0.19'
 ```
 
 Then, run the following command:
