@@ -9,6 +9,7 @@ Pod::Spec.new do |spec|
   spec.source            = { :git => 'https://github.com/ReduxKit/ReduxKitRxSwift.git', :tag => spec.version.to_s }
   spec.source_files      = 'ReduxKitRxSwift'
   spec.dependency          'ReduxKit', '~> 0.1'
+  spec.dependency          'RxSwift', '~> 2.0.0-beta'
   spec.ios.deployment_target     = '8.0'
   spec.osx.deployment_target     = '10.10'
   spec.tvos.deployment_target    = '9.0'
