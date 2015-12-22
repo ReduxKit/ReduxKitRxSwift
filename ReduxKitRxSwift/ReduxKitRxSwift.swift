@@ -1,22 +1,22 @@
 //
-//  ReduxRx.swift
-//  ReduxRx
+//  ReduxKitRxSwift.swift
+//  ReduxKitRxSwift
 //
 //  Created by Karl Bowden on 20/12/2015.
-//  Copyright © 2015 SwiftRedux. All rights reserved.
+//  Copyright © 2015 ReduxKit. All rights reserved.
 //
 
 import RxSwift
-import Redux
+import ReduxKit
 
 /**
 
- Uses `createStateStream` to create a `Redux.Store<State>` using an
+ Uses `createStateStream` to create a `ReduxKit.Store<State>` using an
  `RxSwift.Variable<State>` stream.
 
  */
 public func createStore<State>(
-    reducer: ((State?, Redux.Action) -> State),
+    reducer: ((State?, ReduxKit.Action) -> State),
     state: State? = nil)
     -> Store<State> {
 
@@ -25,7 +25,7 @@ public func createStore<State>(
 
 /**
 
- Accepts a `State` and returns `Redux.StateStream<State>` using an
+ Accepts a `State` and returns `ReduxKit.StateStream<State>` using an
  `RxSwift.Variable<State>` as the stream provider.
 
  */

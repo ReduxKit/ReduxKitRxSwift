@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7398B0291C25FF1F000ED3FD"
-               BuildableName = "ReduxRx-watchOS.framework"
-               BlueprintName = "ReduxRx-watchOS"
-               ReferencedContainer = "container:ReduxRx.xcodeproj">
+               BlueprintIdentifier = "7398B0361C25FF34000ED3FD"
+               BuildableName = "ReduxKitRxSwift.framework"
+               BlueprintName = "ReduxKitRxSwift-tvOS"
+               ReferencedContainer = "container:ReduxKitRxSwift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7398B03F1C25FF34000ED3FD"
+               BuildableName = "ReduxKitRxSwift.xctest"
+               BlueprintName = "ReduxKitRxSwift-tvOSTests"
+               ReferencedContainer = "container:ReduxKitRxSwift.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7398B0361C25FF34000ED3FD"
+            BuildableName = "ReduxKitRxSwift.framework"
+            BlueprintName = "ReduxKitRxSwift-tvOS"
+            ReferencedContainer = "container:ReduxKitRxSwift.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -45,10 +64,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7398B0291C25FF1F000ED3FD"
-            BuildableName = "ReduxRx-watchOS.framework"
-            BlueprintName = "ReduxRx-watchOS"
-            ReferencedContainer = "container:ReduxRx.xcodeproj">
+            BlueprintIdentifier = "7398B0361C25FF34000ED3FD"
+            BuildableName = "ReduxKitRxSwift.framework"
+            BlueprintName = "ReduxKitRxSwift-tvOS"
+            ReferencedContainer = "container:ReduxKitRxSwift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +82,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7398B0291C25FF1F000ED3FD"
-            BuildableName = "ReduxRx-watchOS.framework"
-            BlueprintName = "ReduxRx-watchOS"
-            ReferencedContainer = "container:ReduxRx.xcodeproj">
+            BlueprintIdentifier = "7398B0361C25FF34000ED3FD"
+            BuildableName = "ReduxKitRxSwift.framework"
+            BlueprintName = "ReduxKitRxSwift-tvOS"
+            ReferencedContainer = "container:ReduxKitRxSwift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

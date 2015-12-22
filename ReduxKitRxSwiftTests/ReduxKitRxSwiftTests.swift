@@ -1,19 +1,19 @@
 //
-//  ReduxRxTests.swift
-//  ReduxRxTests
+//  ReduxKitRxSwiftTests.swift
+//  ReduxKitRxSwiftTests
 //
 //  Created by Karl Bowden on 20/12/2015.
-//  Copyright © 2015 SwiftRedux. All rights reserved.
+//  Copyright © 2015 ReduxKit. All rights reserved.
 //
 
 import XCTest
 import RxSwift
-import Redux
-@testable import ReduxRx
+import ReduxKit
+@testable import ReduxKitRxSwift
 
-class ReduxRxTests: XCTestCase {
+class ReduxKitRxSwiftTests: XCTestCase {
 
-    let store: Store<State> = ReduxRx.createStore(reducer)
+    let store: Store<State> = ReduxKitRxSwift.createStore(reducer)
     let action = IncrementAction()
     let action2 = IncrementAction(payload: 2)
 
@@ -85,7 +85,7 @@ class ReduxRxTests: XCTestCase {
         let count = 100000
         self.measureBlock {
             // Arrange
-            let store = ReduxRx.createStore(reducer)
+            let store = ReduxKitRxSwift.createStore(reducer)
             let action = IncrementAction()
             var state: State!
             store.subscribe { state = $0 }

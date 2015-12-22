@@ -1,9 +1,9 @@
-# ReduxRxSwift
+# ReduxKitRxSwift
 
-RxSwift bindings for Redux.
+RxSwift bindings for ReduxKit.
 
 ```swift
-import ReduxRx
+import ReduxKitRxSwift
 let store = createStore(reducer)
 ```
 
@@ -12,7 +12,7 @@ let store = createStore(reducer)
 ```swift
 import RxSwift
 import Redux
-import ReduxRx
+import ReduxKitRxSwift
 
 // Setup State, Actions and Reducers
 struct State {
@@ -37,7 +37,7 @@ func reducer(previousState: State? = nil, action: Action) -> State {
 }
 
 // Create the Store
-let store: Store<State> = ReduxRx.createStore(reducer)
+let store: Store<State> = ReduxKitRxSwift.createStore(reducer)
 
 let disposable = store.subscribe { print("Count: \($0.count)") }
 // -> Count: 0
@@ -55,9 +55,10 @@ store.dispatch(IncrementAction())
 
 ### [Carthage](https://github.com/Carthage/Carthage)
 
-Add ReduxRxSwift to `Cartfile`
+Add ReduxKitRxSwift to `Cartfile`
 ```
-github "ReSwift/ReduxRxSwift"
+github "ReduxKit/ReduxKit" ~> 0.1
+github "ReduxKit/ReduxKitRxSwift" ~> 0.1
 ```
 
 Run in terminal:
@@ -67,13 +68,14 @@ $ carthage update
 
 ### [CocoaPods](http://cocoapods.org)
 
-Add ReduxRxSwift to your `Podfile`:
+Add ReduxKitRxSwift to your `Podfile`:
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 
-pod 'ReduxRxSwift', '~> 0.0.19'
+pod 'ReduxKit', '~> 0.1'
+pod 'ReduxKitRxSwift', '~> 0.1'
 ```
 
 Then, run the following command:
@@ -91,7 +93,7 @@ func createStore<State>(reducer: Reducer, state: State? = nil)
 	-> Store<State>
 ```
 
-Uses `createStateStream` to create a `Redux.Store<State>` using an `RxSwift.Variable<State>` stream.
+Uses `createStateStream` to create a `ReduxKit.Store<State>` using an `RxSwift.Variable<State>` stream.
 
 
 ### createStateStream
@@ -101,7 +103,7 @@ public func createStream<State>(state: State)
 	-> StateStream<State>
 ```
 
-Accepts a `State` and returns `Redux.StateStream<State>` using an `RxSwift.Variable<State>` as the stream provider.
+Accepts a `State` and returns `ReduxKit.StateStream<State>` using an `RxSwift.Variable<State>` as the stream provider.
 
 ### createDisposable
 
