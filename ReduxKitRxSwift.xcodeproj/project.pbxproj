@@ -87,6 +87,8 @@
 		7398B08B1C2605A1000ED3FD /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7398B08C1C2605A1000ED3FD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7398B0911C260749000ED3FD /* Mocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
+		73A125D41C2A066E00E4E928 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		73A125D51C2A067600E4E928 /* ReduxKitRxSwift.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReduxKitRxSwift.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,10 +168,12 @@
 				7398B08C1C2605A1000ED3FD /* README.md */,
 				7398B06F1C26022A000ED3FD /* Cartfile */,
 				7398B0761C260480000ED3FD /* Cartfile.resolved */,
+				73A125D41C2A066E00E4E928 /* Podfile */,
+				73A125D51C2A067600E4E928 /* ReduxKitRxSwift.podspec */,
 				7398B00D1C25FEF5000ED3FD /* ReduxKitRxSwift */,
 				7398B0191C25FEF5000ED3FD /* ReduxKitRxSwiftTests */,
 				7398B0851C26051D000ED3FD /* Dependencies iOS */,
-				7398B0831C2604C6000ED3FD /* Dependencies OSX */,
+				7398B0831C2604C6000ED3FD /* Dependencies Mac */,
 				7398B0841C260512000ED3FD /* Dependencies tvOS */,
 				7398B0861C26053C000ED3FD /* Dependencies watchOS */,
 				7398B00C1C25FEF5000ED3FD /* Products */,
@@ -210,13 +214,13 @@
 			path = ReduxKitRxSwiftTests;
 			sourceTree = "<group>";
 		};
-		7398B0831C2604C6000ED3FD /* Dependencies OSX */ = {
+		7398B0831C2604C6000ED3FD /* Dependencies Mac */ = {
 			isa = PBXGroup;
 			children = (
 				7398B07F1C2604B3000ED3FD /* ReduxKit.framework */,
 				7398B0801C2604B3000ED3FD /* RxSwift.framework */,
 			);
-			name = "Dependencies OSX";
+			name = "Dependencies Mac";
 			sourceTree = "<group>";
 		};
 		7398B0841C260512000ED3FD /* Dependencies tvOS */ = {

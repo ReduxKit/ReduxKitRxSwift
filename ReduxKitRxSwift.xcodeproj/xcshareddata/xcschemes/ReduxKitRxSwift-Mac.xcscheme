@@ -34,7 +34,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7398B05B1C25FF4B000ED3FD"
-               BuildableName = "ReduxKitRxSwift.xctest"
+               BuildableName = "ReduxKitRxSwiftTests.xctest"
                BlueprintName = "ReduxKitRxSwift-MacTests"
                ReferencedContainer = "container:ReduxKitRxSwift.xcodeproj">
             </BuildableReference>
