@@ -35,6 +35,17 @@
 		7398B09E1C26115D000ED3FD /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7398B07C1C2604A1000ED3FD /* RxSwift.framework */; };
 		7398B09F1C261163000ED3FD /* ReduxKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7398B0771C260489000ED3FD /* ReduxKit.framework */; };
 		7398B0A01C261163000ED3FD /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7398B0781C260489000ED3FD /* RxSwift.framework */; };
+		73A125D71C2A149900E4E928 /* ObservableMiddlewareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A125D61C2A149900E4E928 /* ObservableMiddlewareTests.swift */; };
+		73A125D81C2A149900E4E928 /* ObservableMiddlewareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A125D61C2A149900E4E928 /* ObservableMiddlewareTests.swift */; };
+		73A125D91C2A149900E4E928 /* ObservableMiddlewareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A125D61C2A149900E4E928 /* ObservableMiddlewareTests.swift */; };
+		73A125DB1C2A187400E4E928 /* ObservableAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A125DA1C2A187400E4E928 /* ObservableAction.swift */; };
+		73A125DC1C2A187400E4E928 /* ObservableAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A125DA1C2A187400E4E928 /* ObservableAction.swift */; };
+		73A125DD1C2A187400E4E928 /* ObservableAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A125DA1C2A187400E4E928 /* ObservableAction.swift */; };
+		73A125DE1C2A187400E4E928 /* ObservableAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A125DA1C2A187400E4E928 /* ObservableAction.swift */; };
+		73A125E01C2A196600E4E928 /* ObservableMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A125DF1C2A196600E4E928 /* ObservableMiddleware.swift */; };
+		73A125E11C2A196600E4E928 /* ObservableMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A125DF1C2A196600E4E928 /* ObservableMiddleware.swift */; };
+		73A125E21C2A196600E4E928 /* ObservableMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A125DF1C2A196600E4E928 /* ObservableMiddleware.swift */; };
+		73A125E31C2A196600E4E928 /* ObservableMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A125DF1C2A196600E4E928 /* ObservableMiddleware.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,8 +98,10 @@
 		7398B08B1C2605A1000ED3FD /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7398B08C1C2605A1000ED3FD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7398B0911C260749000ED3FD /* Mocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
-		73A125D41C2A066E00E4E928 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		73A125D51C2A067600E4E928 /* ReduxKitRxSwift.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReduxKitRxSwift.podspec; sourceTree = "<group>"; };
+		73A125D61C2A149900E4E928 /* ObservableMiddlewareTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableMiddlewareTests.swift; sourceTree = "<group>"; };
+		73A125DA1C2A187400E4E928 /* ObservableAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableAction.swift; sourceTree = "<group>"; };
+		73A125DF1C2A196600E4E928 /* ObservableMiddleware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableMiddleware.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,7 +181,6 @@
 				7398B08C1C2605A1000ED3FD /* README.md */,
 				7398B06F1C26022A000ED3FD /* Cartfile */,
 				7398B0761C260480000ED3FD /* Cartfile.resolved */,
-				73A125D41C2A066E00E4E928 /* Podfile */,
 				73A125D51C2A067600E4E928 /* ReduxKitRxSwift.podspec */,
 				7398B00D1C25FEF5000ED3FD /* ReduxKitRxSwift */,
 				7398B0191C25FEF5000ED3FD /* ReduxKitRxSwiftTests */,
@@ -199,6 +211,8 @@
 			children = (
 				7398B00E1C25FEF5000ED3FD /* ReduxKitRxSwift.h */,
 				7398B0101C25FEF5000ED3FD /* Info.plist */,
+				73A125DA1C2A187400E4E928 /* ObservableAction.swift */,
+				73A125DF1C2A196600E4E928 /* ObservableMiddleware.swift */,
 				7398B06A1C26007D000ED3FD /* ReduxKitRxSwift.swift */,
 			);
 			path = ReduxKitRxSwift;
@@ -209,6 +223,7 @@
 			children = (
 				7398B01C1C25FEF5000ED3FD /* Info.plist */,
 				7398B0911C260749000ED3FD /* Mocks.swift */,
+				73A125D61C2A149900E4E928 /* ObservableMiddlewareTests.swift */,
 				7398B01A1C25FEF5000ED3FD /* ReduxKitRxSwiftTests.swift */,
 			);
 			path = ReduxKitRxSwiftTests;
@@ -639,7 +654,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73A125DB1C2A187400E4E928 /* ObservableAction.swift in Sources */,
 				7398B06B1C26007D000ED3FD /* ReduxKitRxSwift.swift in Sources */,
+				73A125E01C2A196600E4E928 /* ObservableMiddleware.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -648,6 +665,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7398B0971C261016000ED3FD /* ReduxKitRxSwiftTests.swift in Sources */,
+				73A125D71C2A149900E4E928 /* ObservableMiddlewareTests.swift in Sources */,
 				7398B0931C26074E000ED3FD /* Mocks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -656,7 +674,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73A125DE1C2A187400E4E928 /* ObservableAction.swift in Sources */,
 				7398B06C1C26007D000ED3FD /* ReduxKitRxSwift.swift in Sources */,
+				73A125E31C2A196600E4E928 /* ObservableMiddleware.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,7 +684,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73A125DD1C2A187400E4E928 /* ObservableAction.swift in Sources */,
 				7398B06D1C26007D000ED3FD /* ReduxKitRxSwift.swift in Sources */,
+				73A125E21C2A196600E4E928 /* ObservableMiddleware.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,6 +695,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7398B0961C261015000ED3FD /* ReduxKitRxSwiftTests.swift in Sources */,
+				73A125D91C2A149900E4E928 /* ObservableMiddlewareTests.swift in Sources */,
 				7398B0941C26074F000ED3FD /* Mocks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -681,7 +704,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73A125DC1C2A187400E4E928 /* ObservableAction.swift in Sources */,
 				7398B06E1C26007D000ED3FD /* ReduxKitRxSwift.swift in Sources */,
+				73A125E11C2A196600E4E928 /* ObservableMiddleware.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -690,6 +715,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7398B0741C2602BF000ED3FD /* ReduxKitRxSwiftTests.swift in Sources */,
+				73A125D81C2A149900E4E928 /* ObservableMiddlewareTests.swift in Sources */,
 				7398B0951C260751000ED3FD /* Mocks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
