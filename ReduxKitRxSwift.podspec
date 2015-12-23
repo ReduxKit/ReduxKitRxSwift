@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name              = 'ReduxKitRxSwift'
-  spec.version           = '0.1.3'
+  spec.version           = '0.1.4'
   spec.summary           = 'RxSwift bindings for ReduxKit'
   spec.homepage          = 'https://github.com/ReduxKit/ReduxKitRxSwift'
   spec.license           = { :type => 'MIT', :file => 'LICENSE' }
